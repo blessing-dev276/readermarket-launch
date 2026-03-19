@@ -59,7 +59,7 @@ const Navbar = () => {
             </a>
           ))}
           <Button variant="default" size="sm" className="w-full" asChild>
-            <a href="#cta">Get Started</a>
+            <a href="#cta">Get My Book Placed</a>
           </Button>
         </div>
       )}
