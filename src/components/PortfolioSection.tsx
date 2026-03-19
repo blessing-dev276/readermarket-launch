@@ -9,36 +9,36 @@ const cases = [
     image: book1,
     title: "The Last Horizon",
     author: "Sarah Mitchell",
-    metric: "Placed on 18 Goodreads lists",
-    result: "320% increase in organic visibility",
+    label: "Placed on Top Goodreads Lists",
+    stat: "Featured on multiple Listopia categories",
   },
   {
     image: book2,
     title: "Echoes of Florence",
     author: "James Crawford",
-    metric: "Ranked #4 in Historical Fiction Lists",
-    result: "Consistent organic traffic for 6+ months",
+    label: "Increased Visibility",
+    stat: "Improved book exposure significantly",
   },
   {
     image: book3,
     title: "Under the Willow",
     author: "Emma Hart",
-    metric: "Placed on 15+ Romance lists",
-    result: "300% increase in Kindle impressions",
+    label: "Organic Discovery Growth",
+    stat: "Consistent new reader traffic monthly",
   },
   {
     image: book4,
     title: "Neon Meridian",
     author: "Alex Petrov",
-    metric: "12 Sci-Fi list placements",
-    result: "2x organic sales within 30 days",
+    label: "Placed on Top Goodreads Lists",
+    stat: "Featured on multiple Listopia categories",
   },
   {
     image: book5,
     title: "The Clarity Path",
     author: "Dr. Nina Brooks",
-    metric: "Google Knowledge Panel live in 3 weeks",
-    result: "47% increase in Amazon discoverability",
+    label: "Increased Visibility",
+    stat: "Improved discoverability across platforms",
   },
 ];
 
@@ -47,7 +47,7 @@ const PortfolioSection = () => {
     <section id="portfolio" className="py-24 lg:py-32">
       <div className="container mx-auto px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl text-foreground mb-16">
-          Portfolio
+          Real Results
         </h2>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -60,14 +60,9 @@ const PortfolioSection = () => {
                   className="h-56 object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
-                {/* Overlay on hover */}
-                <div className="absolute inset-0 bg-foreground/80 rounded-xl flex flex-col items-center justify-center text-center px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <p className="text-primary-foreground font-semibold text-sm mb-2">
-                    {c.metric}
-                  </p>
-                  <p className="text-primary-foreground/70 text-xs">
-                    {c.result}
-                  </p>
+                {/* Label badge */}
+                <div className="absolute top-4 left-4 bg-accent text-accent-foreground text-[10px] font-semibold uppercase tracking-wider px-3 py-1 rounded-full">
+                  {c.label}
                 </div>
               </div>
               <div className="mt-3">
@@ -75,6 +70,7 @@ const PortfolioSection = () => {
                   {c.title}
                 </p>
                 <p className="text-xs text-muted-foreground">{c.author}</p>
+                <p className="text-xs text-accent mt-1 font-medium">{c.stat}</p>
               </div>
             </div>
           ))}
