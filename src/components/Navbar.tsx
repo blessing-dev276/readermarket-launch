@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import lindaPortrait from "@/assets/linda-portrait.png";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
@@ -15,7 +16,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-6 lg:px-8">
-        <a href="#" className="font-serif text-xl tracking-tight">
+        <a href="#" className="flex items-center gap-2.5 font-serif text-xl tracking-tight">
+          <img src={lindaPortrait} alt="Linda R. Lyon" className="w-8 h-8 rounded-full object-cover object-top" />
           Linda R. Lyon
         </a>
 
