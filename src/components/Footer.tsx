@@ -38,7 +38,7 @@ const Footer = () => {
               href="mailto:lindarlyonn@gmail.com"
               className="text-sm text-muted-foreground hover:text-accent transition-colors"
             >
-              hello@lindarlyon.com
+              lindarlyonn@gmail.com
             </a>
           </div>
         </div>
