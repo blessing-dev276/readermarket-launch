@@ -36,9 +36,17 @@ const Footer = () => {
             </p>
             <a
               href="mailto:lindarlyonn@gmail.com"
-              className="text-sm text-muted-foreground hover:text-accent transition-colors"
+              className="block text-sm text-muted-foreground hover:text-accent transition-colors"
             >
               lindarlyonn@gmail.com
+            </a>
+            <a
+              href="https://wa.me/12499028136"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-sm text-muted-foreground hover:text-accent transition-colors mt-2"
+            >
+              +1 (249) 902-8136
             </a>
           </div>
         </div>
