@@ -10,8 +10,8 @@ const CtaSection = () => {
         <p className="text-foreground/60 text-lg mb-10 max-w-lg mx-auto">
           Your book deserves visibility — put it where readers are already looking.
         </p>
-        <Button variant="hero" size="lg">
-          Start My Placement Now
+        <Button variant="hero" size="lg" asChild>
+          <a href="/intake">Start My Placement Now</a>
         </Button>
       </div>
     </section>

@@ -40,7 +40,7 @@ const HeroSection = () => {
 
               <div className="flex flex-wrap gap-4">
                 <Button variant="hero" size="lg" asChild>
-                  <a href="#cta">Get My Book on Goodreads Lists</a>
+                  <a href="/intake">Get My Book on Goodreads Lists</a>
                 </Button>
                 <Button variant="heroGhost" size="lg" asChild>
                   <a href="#portfolio">See Real Results</a>
