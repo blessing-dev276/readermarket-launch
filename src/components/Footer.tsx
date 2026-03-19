@@ -35,7 +35,7 @@ const Footer = () => {
               Contact
             </p>
             <a
-              href="mailto:hello@lindarlyon.com"
+              href="mailto:lindarlyonn@gmail.com"
               className="text-sm text-muted-foreground hover:text-accent transition-colors"
             >
               hello@lindarlyon.com
