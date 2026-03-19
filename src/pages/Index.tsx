@@ -5,6 +5,7 @@ import WhyNowSection from "@/components/WhyNowSection";
 import ServicesSection from "@/components/ServicesSection";
 import PortfolioSection from "@/components/PortfolioSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
+import PersonalBrandSection from "@/components/PersonalBrandSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import CtaSection from "@/components/CtaSection";
 import Footer from "@/components/Footer";
