@@ -1,8 +1,10 @@
+import { AlertTriangle } from "lucide-react";
+
 const bullets = [
-  "Thousands of books are published every single day — visibility is the #1 problem",
-  "Ads are expensive and stop working the moment you stop paying",
-  "Goodreads readers are high-intent buyers actively looking for books",
-  "List placements create long-term, compounding discovery",
+  "Thousands of books are published daily — yours gets buried",
+  "Ads stop working the moment you stop paying",
+  "Readers trust lists more than promotions",
+  "Visibility is the difference between selling and being ignored",
 ];
 
 const stats = [
@@ -18,13 +20,13 @@ const WhyNowSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           <div>
             <h2 className="text-3xl sm:text-4xl text-foreground mb-6">
-              Why Authors Need This Now
+              Why This Matters NOW
             </h2>
             <ul className="space-y-4">
               {bullets.map((b, i) => (
                 <li key={i} className="flex gap-3 text-foreground/70">
-                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0" />
-                  <span className="text-sm">{b}</span>
+                  <AlertTriangle className="w-4 h-4 text-accent mt-0.5 shrink-0" />
+                  <span className="text-sm font-medium">{b}</span>
                 </li>
               ))}
             </ul>

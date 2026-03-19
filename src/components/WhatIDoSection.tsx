@@ -1,23 +1,21 @@
-import { BookOpen, Users, TrendingUp } from "lucide-react";
+import { BookOpen, Users, TrendingUp, Eye } from "lucide-react";
 
-const points = [
+const benefits = [
   {
-    icon: Users,
-    title: "Readers Trust Lists, Not Ads",
-    description:
-      "Goodreads Listopia lists are curated by real readers. A placement here carries genuine social proof that paid ads simply can't replicate.",
-  },
-  {
-    icon: BookOpen,
-    title: "Natural Discovery",
-    description:
-      "Your book appears where readers actively search for their next read — no algorithmic bidding wars, just organic visibility.",
+    icon: Eye,
+    text: "Your book appears where readers are actively searching",
   },
   {
     icon: TrendingUp,
-    title: "Consistent Organic Traffic",
-    description:
-      "Unlike ads that stop the moment you stop paying, list placements continue driving traffic and sales month after month.",
+    text: "Builds long-term organic visibility",
+  },
+  {
+    icon: BookOpen,
+    text: "Drives consistent traffic without paid ads",
+  },
+  {
+    icon: Users,
+    text: "Increases credibility and reader trust",
   },
 ];
 
@@ -25,28 +23,25 @@ const WhatIDoSection = () => {
   return (
     <section className="py-24 lg:py-32 bg-muted">
       <div className="container mx-auto px-6 lg:px-8">
-        <div className="max-w-2xl mb-16">
+        <div className="max-w-2xl mb-14">
           <h2 className="text-3xl sm:text-4xl text-foreground mb-4">
-            What I Do
+            What This Actually Does
           </h2>
-          <p className="text-foreground/60 text-lg">
-            Goodreads Listopia placement helps books appear on reader-curated
-            lists where people actively search for their next read.
+          <p className="text-foreground/60 text-lg leading-relaxed">
+            Goodreads Listopia is where readers go to find their next book.
+            These are curated lists created by readers — not ads.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-0 md:divide-x divide-border">
-          {points.map((p, i) => (
+        <div className="grid sm:grid-cols-2 gap-5">
+          {benefits.map((b, i) => (
             <div
               key={i}
-              className="px-0 md:px-8 first:pl-0 last:pr-0 py-6 md:py-0"
-              style={{ animationDelay: `${i * 80}ms` }}
+              className="flex items-start gap-4 bg-card rounded-xl p-5"
+              style={{ boxShadow: "var(--shadow-soft)" }}
             >
-              <p.icon className="w-5 h-5 text-accent mb-4" strokeWidth={1.5} />
-              <h3 className="text-lg font-sans font-semibold text-foreground mb-2 tracking-normal">
-                {p.title}
-              </h3>
-              <p className="text-foreground/60 text-sm">{p.description}</p>
+              <b.icon className="w-5 h-5 text-accent mt-0.5 shrink-0" strokeWidth={1.5} />
+              <p className="text-foreground/70 text-sm leading-relaxed">{b.text}</p>
             </div>
           ))}
         </div>

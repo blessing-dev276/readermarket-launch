@@ -2,47 +2,42 @@ const services = [
   {
     numeral: "I",
     title: "Goodreads Listopia Placement",
-    tag: "Core Service",
+    tag: "Core Offer",
     items: [
-      "Placement on targeted reader-curated lists",
-      "Niche-specific list research",
-      "Organic visibility boost",
-      "Long-term ranking potential",
+      "Strategic placement on high-traffic lists",
+      "Niche-targeted positioning",
+      "Long-term discoverability",
     ],
   },
   {
     numeral: "II",
     title: "Amazon Profile Optimization",
     items: [
-      "Keyword optimization",
-      "Improved book discoverability",
-      "Category ranking strategy",
+      "Keyword + category optimization",
+      "Improve ranking and discoverability",
     ],
   },
   {
     numeral: "III",
     title: "Goodreads Profile Optimization",
     items: [
-      "Author profile setup and polish",
-      "Book metadata optimization",
-      "Engagement improvement",
+      "Professional author presence",
+      "Better engagement and visibility",
     ],
   },
   {
     numeral: "IV",
-    title: "Google Panel SEO",
+    title: "Google Knowledge Panel SEO",
     items: [
-      "Build and optimize your Google Knowledge Panel",
-      "Improve online authority and credibility",
+      "Build authority and online credibility",
     ],
   },
   {
     numeral: "V",
     title: "Amazon A+ Content",
     items: [
-      "Enhanced product page visuals",
-      "Better conversion rates",
-      "Professional layout for book pages",
+      "High-converting product page visuals",
+      "Boost reader confidence",
     ],
   },
 ];

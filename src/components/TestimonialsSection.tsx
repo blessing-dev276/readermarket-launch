@@ -1,27 +1,28 @@
 const testimonials = [
   {
-    quote:
-      "Within two weeks of working with Linda, my book appeared on 12 Goodreads lists. My organic sales doubled the following month.",
+    quote: "I started getting consistent visibility without ads. This changed everything for my book launch.",
     name: "Sarah Mitchell",
     title: "Author of The Last Horizon",
   },
   {
-    quote:
-      "I was spending $800/month on Amazon ads with diminishing returns. Linda's approach gave me sustainable visibility without the ad spend.",
+    quote: "Exactly what I needed to get my book noticed. The process was simple and the results spoke for themselves.",
     name: "James Crawford",
     title: "Historical Fiction Author",
   },
   {
-    quote:
-      "Linda doesn't just place your book — she builds your entire discoverability ecosystem. My Google Knowledge Panel went live within 3 weeks.",
+    quote: "Simple process, real results. My book was placed on lists I didn't even know existed.",
     name: "Dr. Nina Brooks",
     title: "Non-Fiction Author",
   },
   {
-    quote:
-      "The ROI speaks for itself. 300% increase in Goodreads impressions and a consistent stream of new readers every month.",
+    quote: "I stopped spending on ads and started seeing organic readers find my books. Couldn't ask for more.",
     name: "Emma Hart",
     title: "Romance Author",
+  },
+  {
+    quote: "Linda's approach is refreshingly straightforward. Real placements, real readers, real growth.",
+    name: "Alex Petrov",
+    title: "Sci-Fi Author",
   },
 ];
 
@@ -33,7 +34,7 @@ const TestimonialsSection = () => {
           What Authors Say
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {testimonials.map((t, i) => (
             <blockquote
               key={i}

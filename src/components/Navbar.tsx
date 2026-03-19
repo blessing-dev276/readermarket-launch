@@ -31,7 +31,7 @@ const Navbar = () => {
             </a>
           ))}
           <Button variant="default" size="sm" asChild>
-            <a href="#cta">Get Started</a>
+            <a href="#cta">Get My Book Placed</a>
           </Button>
         </div>
 

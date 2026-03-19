@@ -1,21 +1,21 @@
 const steps = [
   {
     step: "01",
-    title: "Submit Your Book Details",
+    title: "Submit Your Book",
     description:
-      "Share your book title, genre, target audience, and goals. We'll take it from there.",
+      "Share your book title, genre, and goals — we handle everything from there.",
   },
   {
     step: "02",
-    title: "We Identify & Optimize",
+    title: "We Identify High-Performing Lists",
     description:
-      "We research the best-performing lists for your niche and optimize your book's presence across platforms.",
+      "We research the best Listopia lists for your niche and optimize your book's positioning.",
   },
   {
     step: "03",
-    title: "Get Discovered",
+    title: "Your Book Gets Discovered",
     description:
-      "Your book gets placed and discovered by real readers who are actively looking for their next great read.",
+      "We position your book for discovery by real readers who are actively looking for their next great read.",
   },
 ];
 
